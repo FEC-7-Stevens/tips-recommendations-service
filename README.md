@@ -1,13 +1,12 @@
-# Project Name
+# Zigat Tips & Recommendations Service
 
-> Project description
+> This service offers bite-sized tips and recommendations such as restaurant features and popular dishes. 
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/FEC-7-Stevens/photo-carousel-service
+  - https://github.com/FEC-7-Stevens/info-sidebar-service
+  - https://github.com/FEC-7-Stevens/similar-restaurants-service
 
 ## Table of Contents
 
@@ -17,7 +16,13 @@
 
 ## Usage
 
-> Some usage instructions
+//Example URL: http://localhost:6070/1/
+
+> To initialize the page, run the following commands in two separate terminal windows:
+```sh
+npm run server
+npm run build
+```
 
 ## Requirements
 
@@ -33,7 +38,14 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
+### Database Creation
+
+From within the root directory:
+
+```sh
+npm run schema
+npm run seed
+```
