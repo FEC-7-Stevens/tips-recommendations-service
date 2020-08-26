@@ -16,9 +16,9 @@
 
 ## Usage
 
-//Example URL: http://localhost:6070/1/
+>Example URL: http://localhost:6070/1/
 
-> To initialize the page, run the following commands in two separate terminal windows:
+To initialize the page, run the following commands in two separate terminal windows:
 ```sh
 npm run server
 npm run build
